@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(45deg, rgb(211, 75, 188), rgb(95, 6, 95), rgb(228, 19, 193));
+}
+
+header{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    line-height: 20px;
+    transition: 0.4s;
+         
+         ul{
+            float: right;
+            margin: 0;
+            padding-right: 42px;
+
+        li{
+            margin-top: 5px;
+                list-style-type: none;
+                display: inline-block;
+                padding: 16px 32px;
+                // border: 1px solid red;
+
+                &:hover{
+                    border-radius: 10px;
+                    background-color: rgb(161, 103, 161);
+                }
+                a{
+                    text-decoration: none;
+                    padding: 0px 15px;
+                    font-size: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: rgb(31, 22, 22);
+                }
+            }
+
+
+
+         }
+
+         img{
+            height: 46px;
+            width: 46px;
+            float: left;
+            margin-left: 50px;
+            margin-top: 10px;
+
+         }
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+
+    h1{
+        color: white;
+        font-size: 46px;
+        margin-bottom: 80px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .butt{
+        background-color: #ffff;
+        padding: 12px 25px;
+        color: gray;
+        font-weight: bolder;
+        font-size: 22px;
+        text-transform: uppercase;
+        display: flex;
+        width: 125px;
+        height: 45px;
+        margin-left: 90px;
+        border-radius: 6px;
+        box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+        // margin-top: 27px;
+        text-decoration: none;
+        transition: 0.4s;
+        font-family: 'Times New Roman', Times, serif;
+
+        &:hover{
+            background-color: gray;
+            color: #ffff;
+        }
+    }
+}
+
+
+.pop{
+    background-color: rgba(219, 150, 210, 0.76);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      
+    img{
+        height: 50px;
+        width: 50px;
+        // float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+
+     }
+
+       .pop__C{
+        height: 250px;
+        width: 500px;
+        background-color: #ffff;
+        padding: 20px;
+        border-radius:7px;
+        position: relative;
+       }
+
+       .but{
+        background-color: #ffff;
+        padding: 15px 16px;
+        color: gray;
+        font-weight: bolder;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: flex;
+        width: 80px;
+        height: 45px;
+        margin-left: 200px;
+        border-radius: 6px;
+        box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+        margin-top: 10px;
+        text-decoration: none;
+        transition: 0.4s;
+        font-family: 'Times New Roman', Times, serif;
+
+        &:hover{
+            background-color: gray;
+            color: #ffff;
+        }
+    
+       }
+       .mmm{
+        position: absolute;
+        top: -8px;
+        right: 0px;
+        background-color: #ffff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        box-shadow: 6px 6px 29px -4px rgba(92, 89, 89, 0.75);
+        cursor: pointer;
+       }
+}
+
+
+input{
+    // margin: 20px ;
+     display: block;
+     width: 210px;
+     margin-top: 15px;
+     margin-left: 130px;
+     padding: 8px;
+     border: 1px solid rgb(173, 69, 156);
+
+}
